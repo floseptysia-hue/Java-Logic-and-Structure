@@ -1,4 +1,4 @@
-package org.example.exercises;
+package org.example.exercises.helpers;
 
 public class Constants {
     // Menu utama

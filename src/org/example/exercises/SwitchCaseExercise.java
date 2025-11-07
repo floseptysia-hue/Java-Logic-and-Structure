@@ -1,5 +1,8 @@
 package org.example.exercises;
 
+import org.example.exercises.helpers.Constants;
+import org.example.exercises.helpers.Converter;
+
 import java.util.Scanner;
 
 public class SwitchCaseExercise {
@@ -14,31 +17,28 @@ public class SwitchCaseExercise {
 
         int menu = input.nextInt();
         int price;
-        String namaMenu = "Tidak diketahui";
+        String namaMenu;
 
         switch (menu) {
             case Constants.MENU_SATE_PADANG:
                 namaMenu = "Sate Padang";
                 price = Constants.PRICE_MENU_SATE_PADANG;
                 break;
-
             case Constants.MENU_INDOMIE_KUAH:
                 namaMenu = "Indomie Kuah";
                 price = Constants.PRICE_MENU_INDOMIE_KUAH;
                 break;
-
             case Constants.MENU_NASI_PADANG:
                 namaMenu = "Nasi Padang";
                 price = Constants.PRICE_MENU_NASI_PADANG;
                 break;
-
             default:
                 System.out.println("Tidak tersedia hari ini, mungkin besok");
                 return;
         }
 
         System.out.println("Kamu memilih:" + namaMenu);
-        System.out.println("Total harga: Rp" + price);
+        System.out.println("Total harga: " + Converter.toCurrency(price));
         System.out.println();
     }
 }

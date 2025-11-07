@@ -1,5 +1,7 @@
 package org.example.exercises;
 
+import org.example.exercises.helpers.Constants;
+
 import java.util.Scanner;
 
 public class Main {
