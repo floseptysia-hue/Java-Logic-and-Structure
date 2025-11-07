@@ -7,7 +7,7 @@ public class Constants {
     public static final int LOOPING = 3;
     public static final int EXIT = 0;
 
-    // Tiket - batas usia
+    // Tiket - batas usia user
     public static final int AGE_TODDLER = 5;
     public static final int AGE_CHILD_MAX = 16;
     public static final int AGE_ADULT_MAX = 50;
