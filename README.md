@@ -1,8 +1,7 @@
 # Java Conditional & Looping Exercises
 
 ## 🧾 About the Project
-This project is part of the **Day 21 Java Automation Assignment**.  
-It contains simple exercises demonstrating **conditional statements** and **looping structures** in Java — perfect for beginners who want to strengthen their understanding of basic programming logic.
+This project contains simple exercises demonstrating **conditional statements** and **looping structures** in Java, perfect for beginners who want to strengthen their understanding of basic programming logic.
 
 > Each exercise is written in a separate class for clarity and organization.
 
